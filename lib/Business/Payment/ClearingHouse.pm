@@ -50,7 +50,6 @@ sub _build_uuid {
     return Data::UUID->new;
 }
 
-
 sub auth {
     my ($self, $charge) = @_;
 
@@ -162,13 +161,9 @@ no Moose;
 
 =head1 NAME
 
-Business::Payment::ClearingHouse - The great new Business::Payment::ClearingHouse!
+Business::Payment::ClearingHouse - ClearingHouse for Business::Payment
 
 =head1 SYNOPSIS
-
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
 
     use Business::Payment::ClearingHouse;
 
